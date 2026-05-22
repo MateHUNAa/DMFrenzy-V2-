@@ -1,0 +1,11 @@
+{
+  "baseResource": "Standalone",
+  "frontend": "React",
+  "snippets": [
+    "Logger-system",
+    "OxMySQL",
+    "NUI"
+  ],
+  "author": "MateHUN",
+  "description": "A new FiveM resource"
+}

@@ -1,0 +1,5 @@
+AddEventHandler("playerSpawned", function()
+    print("DMF Loading Screen OFF ")
+    ShutdownLoadingScreen()
+    ShutdownLoadingScreenNui()
+end)

@@ -1,0 +1,102 @@
+@font-face {
+  font-family: RajdhaniBold;
+  src: url(Rajdhani.ttf);
+}
+
+#killfeed-container {
+  margin-top: 5vh;
+  margin-right: 1vh;
+  width: 49vw;
+  height: auto;
+  float: right;
+  overflow-y: hidden;
+}
+
+.kill-line {
+  float: right;
+  width: 100%;
+  margin-bottom: 0.35vh;
+  animation-fill-mode: forwards;
+}
+
+.kill-container {
+  height: 3vh;
+  float: right;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.black-border {
+  border: 0.15em solid rgba(0, 0, 0, 0.01);
+  border-radius: 0.25em;
+}
+
+.red-border {
+  border: 0.18em solid rgba(0, 0, 0, 0);
+  border-radius: 0.3em;
+}
+
+.black-background {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
+.red-background {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
+.text {
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: "RajdhaniBold", Arial, Helvetica, sans-serif;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5),
+    -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  padding-left: 0.85vh;
+  padding-right: 0.85vh;
+  font-size: 1.35em;
+}
+
+.tag {
+  padding-left: 0.85vh;
+  margin-right: -0.3vh;
+  font-size: 1.2em;
+}
+
+.message {
+  padding-right: 0.85vh;
+  font-size: 1.35em;
+}
+
+.dist {
+  padding-left: -0.85vh;
+  padding-right: 0.85vh;
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+.none {
+  padding: 0;
+  padding-right: 0.85vh;
+}
+
+.weapon-image {
+  height: 2.6vh;
+}
+
+.icon-image {
+  height: 2.6vh;
+  padding: 0;
+  padding-left: 0.85vh;
+}
